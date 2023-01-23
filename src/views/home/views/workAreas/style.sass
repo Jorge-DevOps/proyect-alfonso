@@ -1,0 +1,49 @@
+.Container
+    &_WorkAreas
+        height: auto !important
+        padding: 0 3rem
+        display: flex
+        justify-content: flex-start
+        flex-direction: column
+        align-items: center
+        background: #212955
+        &--cards
+            display: flex
+            padding: 2rem 0
+            justify-content: space-between
+            flex-wrap: wrap
+            width: 80%
+            max-width: 69rem
+            border-bottom: solid 1px #ffffff57
+            margin-bottom: 2rem
+        &--card
+            transition: .5s
+            &:hover
+                background: #77777785
+            &:hover .Container_WorkAreas--card--hrefTxt
+                cursor: pointer
+                color: white
+
+            &--href
+                text-decoration: none
+                margin: 1rem 0
+                transition: .5s
+                &Txt
+                    text-align: start
+                    margin: 1rem 0
+                    color: transparent
+
+        &--more
+            width: 100%
+            display: flex
+            justify-content: space-between
+            margin: 2rem 0
+            max-width: 73vw
+
+            &Texto
+                max-width: 21rem
+                text-align: justify
+
+            &Cta
+                display: flex
+                align-items: center

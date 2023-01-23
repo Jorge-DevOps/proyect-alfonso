@@ -1,0 +1,85 @@
+@import "../../../assets/styles/variables.sass"
+
+.Header
+    position: absolute
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    padding: 0 100px
+    gap: 183px
+    background: rgba(19, 24, 30, 0.05)
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+
+    &_List
+        display: flex
+        list-style: none
+        margin: 0
+        padding: 0
+    &_Logo
+        color: white
+        display: flex
+        align-items: center
+        &--name
+            font-weight: bold
+        &--img img
+            width: 4rem
+    &_Contacto
+        display: flex
+        align-items: center
+        color: white
+        &--phone
+            margin-right: 1rem
+            color: white
+            font-weight: bold
+        &--phone a
+            text-decoration: none
+            color: white
+    &_Item
+        color: white
+        &--link
+            margin: 1rem
+            text-decoration: none
+
+    &_Sublist
+        &--content
+            display: none
+            width: 9rem
+            height: 2rem
+            position: absolute
+            padding-top: 1rem
+
+        &--list
+            background: rgb(255 255 255 / 59%)
+            padding: 1rem
+            border-radius: 1rem
+            position: absolute
+            margin-top: 1rem
+            width: 14rem
+            margin-left: -3rem
+
+    &_SubItem--link
+        text-decoration: none
+        border-bottom: solid 1rem black
+
+    &_List--SubMenu
+        list-style: none
+
+// &_List--workAreas
+
+.smth
+  //some CSS
+@media screen and (min-width:$medium)
+    .MenuLink__Text
+        &:hover
+            color: #7C9ECD
+    .Header_List--workAreas
+        &:hover .Header_Sublist--content
+            display: block
+    .Header_Sublist--content
+        &:hover
+            display: block
+    .Header_List--workAreas
+        &:hover
+            display: block

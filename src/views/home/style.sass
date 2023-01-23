@@ -1,0 +1,183 @@
+@import "../../assets/styles/variables.sass"
+
+.Container
+    width: 100%
+    height: 75vh
+    &_Banner
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/banner1.png?alt=media&token=9a600865-f683-450e-9dc8-1c602ed1be04)
+        background-repeat: no-repeat
+        background-size: 100%
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: flex-end
+        height: 50vw
+        &--title
+            font-weight: 700
+            font-size: 3rem
+        &--subTitle
+            font-size: 1rem
+        &--img
+            width: 100%
+            height: 75vh
+        &--text
+            display: flex
+            flex-direction: column
+            align-items: center
+            margin: 3rem auto
+        &--href
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 4rem
+
+    &_About
+        padding: 0 3rem
+        background: white
+        display: flex
+        flex-direction: row
+        &--one
+            background-repeat: no-repeat
+            background-size: 72%
+            background-position: center
+            width: 50%
+            align-items: center
+            flex-direction: column
+            justify-content: flex-end
+        &--two
+            width: 50%
+            padding: 4rem
+
+    &_Why
+        padding: 0 3rem
+        background: white
+        display: flex
+        flex-direction: row
+        &--one
+            background-repeat: no-repeat
+            background-size: 72%
+            background-position: center
+            width: 50%
+            align-items: center
+            flex-direction: column
+            justify-content: flex-end
+        &--two
+            width: 50%
+            padding: 4rem
+    &_Team
+        padding: 0 4rem
+        display: flex
+        flex-direction: column
+        background-repeat: no-repeat
+        background-size: 50%
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: flex-end
+        height: 21rem
+
+        &--slider
+            width: 80%
+            margin: 2rem auto -27rem auto
+            max-width: 85rem
+        &--footer
+            padding: 2rem 0
+            display: flex
+            justify-content: space-between
+
+    &_Firmas
+        margin-top: 28rem
+        &--imgMember
+            width: 10rem
+            height: 10rem
+            object-fit: cover
+            margin: 1rem
+            border-radius: 1rem
+        &--images
+            width: 100%
+            margin: 4rem auto
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            justify-content: center
+    &_Contact
+        padding: 0 3rem 3rem 3rem
+        display: flex
+        flex-direction: row
+        &--one
+            width: 50%
+            height: 37rem
+            display: flex
+            align-items: center
+        &--two
+            width: 50%
+            padding: 4rem
+
+.swiper-button-prev
+    background: #ffffff78
+    border-radius: 27rem
+    width: 2rem
+    height: 2rem
+    &::after
+        font-size: 18px !important
+        color: white
+
+.swiper-button-next
+    background: #ffffff78
+    border-radius: 27rem
+    width: 2rem
+    height: 2rem
+    &::after
+        font-size: 18px !important
+        color: white
+.map-contanier
+    width: 100%
+    height: 80%
+
+@media screen and (max-width: $small)
+    .Container
+        width: 100%
+        height: 75vh
+        &_Banner
+            background-image: url(https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/banner1-mobile.png?alt=media&token=cc5156d0-8ccf-4756-bc80-51a607d18ea2)
+        &_About
+            padding: 0
+            flex-direction: column-reverse
+            height: auto
+
+            &--two
+                width: 100%
+                padding: 2rem 1rem 0rem 2rem
+
+            &--one
+                width: 100%
+                background-size: 94%
+                height: 24rem
+        &_WorkAreas
+            width: 100%
+            padding: 0
+
+            &--cards
+                max-width: fit-content
+                width: 100%
+                margin: 0
+                height: 28rem
+        &_Why
+            flex-direction: column
+            &--two
+                width: 100%
+                padding: 0
+            &--one
+                height: 22rem
+                width: 100%
+                background-size: 100%
+        &_Contact
+            display: flex
+            flex-direction: column-reverse
+            &--two
+                width: 100%
+                padding: 0
+            &--one
+                width: 100%
+
+@media screen and (max-width: $medium)
