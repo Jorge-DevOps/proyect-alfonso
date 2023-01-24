@@ -1,7 +1,10 @@
+import { useState } from "react"
 import logo from "../../../../assets/imgs/logo.png"
 import { Link } from "../item"
 
 export const MenuDesk = () => {
+    const [open, setOpen] = useState(false)
+    
     return (
         <>
             <section className="Header_Logo">
