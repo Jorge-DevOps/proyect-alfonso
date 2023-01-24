@@ -1,3 +1,5 @@
+@import "../../../assets/styles/variables.sass"
+
 .Footer
     background: #335999
     width: 100%
@@ -38,3 +40,17 @@
 
 .Footer_Section--enlaces
     width: 29%
+
+.smth
+  //some CSS
+@media screen and (max-width:$small)
+    .Footer
+        display: flex
+        flex-direction: column
+        &_Section--about
+            display: flex
+            flex-direction: column
+            margin: 0 2rem
+
+        &_Section--logo
+            margin: 5rem 4rem

@@ -59,7 +59,9 @@ export const Home = () => {
                     <a href="" className="buttonWithouColorBlack">Quiero más información</a>
                 </div>
             </section>
+
             <WorkAreas />
+            
             <section className="Container Container_Why" style={{
                 backgroundImage: `url(${bgBlanco})`
             }}>

@@ -2,12 +2,16 @@
 import { WhaMe } from "../whaMe";
 import logo from "../../../assets/imgs/footer/LogoName.png";
 
+import parallax from "../../../assets/imgs/footer/pavel-danilyuk.jpg";
+
 import "./style.sass"
 
 export const Footer = () => {
     return (
         <>
-            <footer className="Footer">
+            <footer className="Footer" style={{
+                background: `linear-gradient(to bottom, #13181eb8, #13181e), url(${parallax}) no-repeat center center fixed`
+            }}>
                 <section className="Footer_Section--logo">
                     <img src={logo} alt="" className="Footer_Section--img" />
                 </section>

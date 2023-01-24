@@ -14,41 +14,45 @@ export const MenuDesk = () => {
 
                 </div>
             </section>
-            <section className="Header_List">
+            <nav className="Header_List">
                 <ul className="Header_List">
-                    <a href="#" className="Header_Item--link">
-                        <Link className="Header_Item" text="Home" link="home" modifier="menu" />
-                    </a>
-                    <div className="Header_Item--link Header_List--workAreas">
-                        <Link text="Áreas de trabajo" className="Header_Item" link="/areas-trabajo" modifier="menu" />
-                        <div className=" Header_Sublist--content">
-                            <ul className="Header_Sublist--list">
-                                <li className="Header_List--SubMenu">
-                                    <Link className="Header_Item" text="Derecho civil" link="derecho-civil" modifier="SubMenu" />
-                                </li>
-                                <li className="Header_List--SubMenu">
-                                    <Link className="Header_Item" text="Derecho laboral" link="derecho-laboral" modifier="SubMenu" />
-                                </li>
-                                <li className="Header_List--SubMenu">
-                                    <Link className="Header_Item" text="Derecho penal" link="derecho-penal" modifier="SubMenu" />
-                                </li>
-                                <li className="Header_List--SubMenu">
-                                    <Link className="Header_Item" text="Derecho administrativo" link="derecho-administrativo" modifier="SubMenu" />
-                                </li>
+                    <li className="Header_List--item">
+                        <div className="Header_Item--link Header_List--workAreas">
+                            <Link text="Áreas de trabajo" className="Header_Item" link="/areas-trabajo" modifier="menu" />
+                            <div className=" Header_Sublist--content">
+                                <ul className="Header_Sublist--list">
+                                    <li className="Header_List--SubMenu">
+                                        <Link className="Header_Item" text="Derecho civil" link="derecho-civil" modifier="SubMenu" />
+                                    </li>
+                                    <li className="Header_List--SubMenu">
+                                        <Link className="Header_Item" text="Derecho laboral" link="derecho-laboral" modifier="SubMenu" />
+                                    </li>
+                                    <li className="Header_List--SubMenu">
+                                        <Link className="Header_Item" text="Derecho penal" link="derecho-penal" modifier="SubMenu" />
+                                    </li>
+                                    <li className="Header_List--SubMenu">
+                                        <Link className="Header_Item" text="Derecho administrativo" link="derecho-administrativo" modifier="SubMenu" />
+                                    </li>
 
-                            </ul>
+                                </ul>
 
+                            </div>
                         </div>
-                    </div>
-                    <a href="#" className="Header_Item--link">
-                        <Link className="Header_Item" text="Quienes somos" link="quienes-somos" modifier="menu" />
-                    </a>
-                    <a href="#" className="Header_Item--link">
-                        <Link className="Header_Item" text="Nuestro equipo" link="nuestro-equipo" modifier="menu" />
-                    </a>
+                    </li>
+                    <li className="Header_List--item">
+                        <div className="Header_Item--link Header_List--workAreas">
+                            <Link className="Header_Item" text="Quienes somos" link="quienes-somos" modifier="menu" />
+                        </div>
+                    </li>
+                    <li className="Header_List--item">
+                        <div className="Header_Item--link Header_List--workAreas">
+                            <Link className="Header_Item" text="Nuestro equipo" link="nuestro-equipo" modifier="menu" />
+                        </div>
+                    </li>
+
 
                 </ul>
-            </section>
+            </nav>
             <section className="Header_Contacto">
                 Contáctanos
             </section>

@@ -1,0 +1,75 @@
+
+@import "../../../../assets/styles/variables.sass"
+
+.Content_MenuMobile
+    background: #13181E
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    z-index: 9
+
+    &--header
+        display: flex
+        justify-content: space-between
+        width: 100%
+        padding: 0 1rem
+    &--logo
+        height: 3rem
+    &--item
+        width: 87%
+        text-align: center
+        padding: 1.2rem 0.5rem
+        border-bottom: solid 1px #FFFFFF
+        margin: 0 2rem
+
+    &--subMenu
+        width: 100%
+        margin-top: 3rem
+        height: 100vh
+        position: fixed
+        background: #13181E
+    &--header
+        position: fixed
+        background: #13181E
+        z-index: 2
+
+.Details
+    &_SubMenu
+        display: flex
+        align-items: center
+        align-content: center
+        outline: none
+        width: 100%
+        &--flecha
+            font-size: 17px
+            line-height: 28px
+            color: #959595
+            padding-left: 2rem
+            text-align: left
+            font-family: verdana
+            margin-bottom: 10px
+        &--title
+            display: flex
+            width: 100%
+            width: 87%
+            text-align: center
+            padding: 1.2rem 0.5rem
+            border-bottom: solid 1px #FFFFFF
+            margin: 0 2rem
+            justify-content: center
+
+            &::after
+                content: ">"
+                font-size: 1.5rem
+                position: relative
+                left: -1rem
+                color: lightgray
+
+.smth
+  //some CSS
+@media screen and (max-width:$small)
+    .Header
+        padding: 0
+        display: flex
+        justify-content: center

@@ -40,7 +40,6 @@ export const FormContact = ({ onSubmit }: Props) => {
 								name="name"
 								autoComplete="off"
 								type="text"
-								autoFocus
 								inputProps={{ maxLength: 155 }}
 								onChange={handleChange}
 								value={values.name}
@@ -59,7 +58,6 @@ export const FormContact = ({ onSubmit }: Props) => {
 								name="email"
 								autoComplete="off"
 								type="text"
-								autoFocus
 								inputProps={{ maxLength: 155 }}
 								placeholder={"correo@gmail.com"}
 								onChange={handleChange}
@@ -81,7 +79,6 @@ export const FormContact = ({ onSubmit }: Props) => {
 								type="text"
 								autoComplete="off"
 								inputProps={{ maxLength: 155 }}
-
 								onChange={handleChange}
 								value={values.phone}
 								size="small"
