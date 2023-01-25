@@ -30,14 +30,14 @@
         position: fixed
         background: #13181E
         padding: 4rem 0
-        
+        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
     &--header
         position: fixed
         background: #13181E
         z-index: 2
         padding: 0.4rem 1rem
     &--cta
-        background: red
 
 .Details
     &_SubMenu
@@ -78,3 +78,46 @@
         padding: 0
         display: flex
         justify-content: center
+    .slide-left
+        -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+    .slide-right
+        -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+    @-webkit-keyframes slide-right
+        0% 
+        -webkit-transform: translateX(0)
+        transform: translateX(0)
+
+        100% 
+        -webkit-transform: translateX(100vh)
+        transform: translateX(100vh)
+
+    @keyframes slide-right
+        0%
+            -webkit-transform: translateX(0)
+            transform: translateX(0)
+
+        100%
+            -webkit-transform: translateX(100vh)
+            transform: translateX(100vh)
+
+    @-webkit-keyframes slide-left
+        0% 
+        -webkit-transform: translateX(0)
+        transform: translateX(0)
+
+        100% 
+        -webkit-transform: translateX(-100vh)
+        transform: translateX(-100vh)
+
+    @keyframes slide-left
+        0%
+            -webkit-transform: translateX(0)
+            transform: translateX(0)
+
+        100%
+            -webkit-transform: translateX(-100vh)
+            transform: translateX(-100vh)

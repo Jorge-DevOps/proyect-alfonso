@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../../../../assets/imgs/footer/LogoName.png";
 import hamburguer from "../../../../assets/imgs/menu/hamburguer.svg";
+import x from "../../../../assets/imgs/menu/x.svg";
 import { Link } from "../item";
 
 import "./style.sass"
@@ -14,10 +15,14 @@ export const MenuMobile = () => {
         <nav className="Content_MenuMobile">
             <div className="Content_MenuMobile--header">
                 <img src={logo} alt="logo" className="Content_MenuMobile--logo" />
-                <img src={hamburguer} alt="logo" className="Content_MenuMobile--cta" onClick={(prev) => { setOpen(!open) }} />
+                {open ? (
+                    <img src={x} alt="logo" className="Content_MenuMobile--cta" onClick={(prev) => { setOpen(!open) }} />
+                ):(
+                    <img src={hamburguer} alt="logo" className="Content_MenuMobile--cta" onClick={(prev) => { setOpen(!open) }} />
+                )}
+                
             </div>
-            {open && (
-                <section className="Content_MenuMobile--subMenu">
+            <section className={`Content_MenuMobile--subMenu ${open && "slide-right"}`} style={{ left: open ? "-100vh" : "0" }}>
                     <div className="text Content_MenuMobile--item">
                         <Link className="Header_Item" text="Home" link="home" modifier="menu" />
                     </div>
@@ -44,8 +49,6 @@ export const MenuMobile = () => {
                         </ol>
                     </details>
                 </section>
-                )
-            }
         </nav>
     )
 }
