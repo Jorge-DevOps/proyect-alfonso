@@ -11,6 +11,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import parallax from "../../../../assets/imgs/home/bg-parallax.png"
+import "./style.sass"
 
 export const Team = () => {
     return (

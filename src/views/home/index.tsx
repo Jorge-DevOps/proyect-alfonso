@@ -8,6 +8,7 @@ import { Partners } from "./views/partners"
 import { WorkAreas } from "./views/workAreas"
 import { Team } from "./views/team"
 import "./style.sass"
+import { Link } from "../../common/components/menu/item"
 
 
 export const Home = () => {
@@ -20,8 +21,8 @@ export const Home = () => {
                     <p className="Container_Banner--subTitle text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
                 </div>
                 <div className="Container_Banner--href">
-                    <a href="/areas-trabajo" className="buttonWithouColor " >Nuestros Servicios</a>
-                    <a href="/contact" className="buttonWithouColor">Contáctenos</a>
+                    <Link text="Áreas de trabajo" link="/areas-trabajo" modifier="buttonWithouColor" />
+                    <Link text="Contáctenos" link="/contacto" modifier="menu" />
 
                 </div>
             </section>
@@ -61,7 +62,7 @@ export const Home = () => {
             </section>
 
             <WorkAreas />
-            
+
             <section className="Container Container_Why" style={{
                 backgroundImage: `url(${bgBlanco})`
             }}>
@@ -70,9 +71,12 @@ export const Home = () => {
                     <div>
                         <Title text="Somos una" />
                         <Title text="firma certificada" />
-                        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
-
-                            No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                        <div className="Container_About--content">
+                            <p className="Container_About--text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                            <div>
+                            </div><div>
+                            </div><div>
+                            </div></div>
                     </div>
                     <div>
                         <a></a>
@@ -88,7 +92,7 @@ export const Home = () => {
                 </div>
 
             </section>
-            <section  style={{
+            <section style={{
                 backgroundImage: `url(${bgBlanco})`
             }}>
                 <Team />

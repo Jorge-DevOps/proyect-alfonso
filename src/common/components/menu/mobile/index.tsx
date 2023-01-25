@@ -17,38 +17,38 @@ export const MenuMobile = () => {
                 <img src={logo} alt="logo" className="Content_MenuMobile--logo" />
                 {open ? (
                     <img src={x} alt="logo" className="Content_MenuMobile--cta" onClick={(prev) => { setOpen(!open) }} />
-                ):(
+                ) : (
                     <img src={hamburguer} alt="logo" className="Content_MenuMobile--cta" onClick={(prev) => { setOpen(!open) }} />
                 )}
-                
+
             </div>
             <section className={`Content_MenuMobile--subMenu ${open && "slide-right"}`} style={{ left: open ? "-100vh" : "0" }}>
-                    <div className="text Content_MenuMobile--item">
-                        <Link className="Header_Item" text="Home" link="home" modifier="menu" />
-                    </div>
-                    <div className="text Content_MenuMobile--item">
-                        <Link className="Header_Item" text="Quienes Somos" link="quienes-somos" modifier="menu" />
-                    </div>
-                    <div className="text Content_MenuMobile--item">
+                <div className="text Content_MenuMobile--item">
+                    <Link text="Home" link="home" modifier="menu" />
+                </div>
+                <div className="text Content_MenuMobile--item">
+                    <Link text="Quienes Somos" link="quienes-somos" modifier="menu" />
+                </div>
+                <div className="text Content_MenuMobile--item">
 
-                        <Link className="Header_Item" text="Nuestro Equipo" link="nuestro-equipo" modifier="menu" />
+                    <Link text="Nuestro Equipo" link="nuestro-equipo" modifier="menu" />
 
-                    </div>
-                    <details className="Details_SubMenu" >
-                        <summary className="Details_SubMenu--title">
-                            <Link text="Áreas de trabajo" className="Header_Item" link="/areas-trabajo" modifier="menu" />
-                            <span className="Details_SubMenu--flecha"></span>
-                        </summary>
-                        <ol className="Details_SubMenu--list">
-                            <li className="text Details_SubMenu--item">Área 1</li>
-                            <li className="text Details_SubMenu--item">Área 2</li>
-                            <li className="text Details_SubMenu--item">Área 3</li>
-                            <li className="text Details_SubMenu--item">Área 4</li>
-                            <li className="text Details_SubMenu--item">Área 5</li>
-                            <li className="text Details_SubMenu--item">Área 6</li>
-                        </ol>
-                    </details>
-                </section>
+                </div>
+                <details className="Details_SubMenu" >
+                    <summary className="Details_SubMenu--title">
+                        <Link text="Áreas de trabajo" link="/areas-trabajo" modifier="menu" />
+                        <span className="Details_SubMenu--flecha"></span>
+                    </summary>
+                    <ol className="Details_SubMenu--list">
+                        <li className="text Details_SubMenu--item">Área 1</li>
+                        <li className="text Details_SubMenu--item">Área 2</li>
+                        <li className="text Details_SubMenu--item">Área 3</li>
+                        <li className="text Details_SubMenu--item">Área 4</li>
+                        <li className="text Details_SubMenu--item">Área 5</li>
+                        <li className="text Details_SubMenu--item">Área 6</li>
+                    </ol>
+                </details>
+            </section>
         </nav>
     )
 }

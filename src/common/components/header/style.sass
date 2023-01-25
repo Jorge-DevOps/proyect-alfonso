@@ -80,6 +80,7 @@
             margin: 1.5rem 0
             &:hover
                 background: #ffffff4a
+                transition: 0.5s
             &--text
                 width: 20vw
                 max-width: 27rem
@@ -97,6 +98,11 @@
             display: flex
             align-items: center
             justify-content: center
+            animation: scale-up-center 0.4s cubic-bezier(0, -0.04, 1, 1) both
+    .Header_List--workAreas
+        &:hover .MenuLink__Text
+            color: #ffffff
+            font-weight: 600
     .Header_List--workAreas
         &:hover
             display: block
