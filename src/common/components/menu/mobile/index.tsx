@@ -22,6 +22,7 @@ export const MenuMobile = () => {
                 )}
 
             </div>
+            
             <section className={`Content_MenuMobile--subMenu ${open && "slide-right"}`} style={{ left: open ? "-100vh" : "0" }}>
                 <div className="text Content_MenuMobile--item">
                     <Link text="Home" link="home" modifier="menu" />

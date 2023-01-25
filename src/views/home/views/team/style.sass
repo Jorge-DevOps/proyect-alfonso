@@ -1,23 +1,16 @@
-.Container_WorkAreas
-    &--cards div:nth-child(3n+1)
-        border-right: solid 2px white
-        border-radius: 1rem 0 0 1rem
 
-    &--cards div:nth-child(4)
-        border-radius: 0 0 0 1rem
+@import "../../../../assets/styles/variables.sass"
 
-    &--cards div:nth-child(1)
-        border-radius: 1rem 0 0 0
-        border-bottom: solid 2px white
+.smth
+  //some CSS
+@media screen and (max-width: $small)
+    .Container_Team
+        padding: 0 2rem
+        &--footer
+            flex-direction: column
+        &--slider
+            width: 100% !important
+            max-width: none !important
 
-    &--cards div:nth-child(2)
-        border-bottom: solid 2px white
+@media screen and (max-width: $medium)
 
-    &--cards div:nth-child(6)
-        border-left: solid 2px white
-        border-radius: 0 0 1rem 0
-
-    &--cards div:nth-child(3)
-        border-left: solid 2px white
-        border-bottom: solid 2px white
-        border-radius: 0 1rem 0 0

@@ -21,8 +21,8 @@ export const Home = () => {
                     <p className="Container_Banner--subTitle text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
                 </div>
                 <div className="Container_Banner--href">
-                    <Link text="Áreas de trabajo" link="/areas-trabajo" modifier="buttonWithouColor" />
-                    <Link text="Contáctenos" link="/contacto" modifier="buttonWithouColor" />
+                    <Link text="Áreas de trabajo" link="/areas-trabajo" modifier="buttonWithouColorWhite" />
+                    <Link text="Contáctenos" link="/contacto" modifier="buttonWithouColorWhite" />
 
                 </div>
             </section>
@@ -57,7 +57,8 @@ export const Home = () => {
                         <a></a>
                         <a></a>
                     </div>
-                    <a href="" className="buttonWithouColorBlack">Quiero más información</a>
+                    <Link text="Quiero más información" link="/areas-trabajo" modifier="buttonWithouColorBlack " />
+
                 </div>
             </section>
 

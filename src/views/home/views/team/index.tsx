@@ -12,6 +12,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import parallax from "../../../../assets/imgs/home/bg-parallax.png"
 import "./style.sass"
+import { Link } from '../../../../common/components/menu/item';
+import "./style.sass"
 
 export const Team = () => {
     return (
@@ -48,7 +50,8 @@ export const Team = () => {
                         <p className='Container_Team--footer--txt'>Te invitamos a que conozcas mas en profundidad todo sobre los servicios que ofrecemos</p>
                     </div>
                     <div>
-                        <a href="" className="buttonWithouColorBlack">Quiero más información</a>
+                        <Link text="Quiero más información" link="/areas-trabajo" modifier="buttonWithouColorBlack " />
+
                     </div>
                 </section>
             </div>
