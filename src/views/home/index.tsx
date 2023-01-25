@@ -22,7 +22,7 @@ export const Home = () => {
                 </div>
                 <div className="Container_Banner--href">
                     <Link text="Áreas de trabajo" link="/areas-trabajo" modifier="buttonWithouColor" />
-                    <Link text="Contáctenos" link="/contacto" modifier="menu" />
+                    <Link text="Contáctenos" link="/contacto" modifier="buttonWithouColor" />
 
                 </div>
             </section>

@@ -11,7 +11,7 @@ type LinkType = {
 
 export const Link = ({ link, text, type, children, modifier,  }: LinkType) => {
     return (
-        <NavLink to={link} className={`MenuLink Link_${modifier}`} >
+        <NavLink to={link} className={`MenuLink Link_Nav--${modifier}`} >
             <h4 className={` text MenuLink__Text Link_${modifier} ` }>{text}</h4>
             {children}
         </NavLink>
