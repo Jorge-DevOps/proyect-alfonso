@@ -8,7 +8,8 @@ type CardTeamMemberProps = {
 
 export const CardTeamMember = ({ img, name, specialist }: CardTeamMemberProps) => {
     return (
-        <div className="Container_TeamMember--card">
+        <div className="Container_TeamMember--card"
+        >
             <img src={img} alt="" className="Container_TeamMember--card--img" />
             <div className="Container_TeamMember--card--details">
                 <p className="Container_TeamMember--card--name text">{name}</p>

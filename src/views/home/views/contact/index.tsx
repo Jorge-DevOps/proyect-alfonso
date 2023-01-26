@@ -13,7 +13,6 @@ export const Contact = () => {
             <div className="Container_Contact--one" >
                 {isLoaded && (
                     <GoogleMap zoom={15} center={firm} mapContainerClassName="map-contanier" options={{ scrollwheel: false, draggable: false }} onLoad={() => {
-                        console.log("cargado")
                     }}>
                         <MarkerF position={firm} />
                     </GoogleMap>)}

@@ -22,12 +22,24 @@ export const WorkAreas = () => {
             </div>
             {window.innerWidth > 768 ? (
                 <div className="Container_WorkAreas--cards">
-                    <CardWorkArea title="Área 1" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                    <CardWorkArea title="Área 2" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                    <CardWorkArea title="Área 3" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                    <CardWorkArea title="Área 4" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                    <CardWorkArea title="Área 5" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                    <CardWorkArea title="Área 6" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    <div data-aos="flip-left" data-aos-duration="1500">
+                        <CardWorkArea title="Área 1" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1500">
+                        <CardWorkArea title="Área 2" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1500">
+                        <CardWorkArea title="Área 3" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1500">
+                        <CardWorkArea title="Área 4" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1500">
+                        <CardWorkArea title="Área 5" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1500">
+                        <CardWorkArea title="Área 6" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                    </div>
                 </div>) : (
                 <div className="Container_WorkAreas--cards">
                     <Swiper

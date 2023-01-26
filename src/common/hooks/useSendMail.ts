@@ -46,11 +46,8 @@ export const useSendMail = () => {
     emailsApi
       .emailsPost(emailMessageData)
       .then((response) => {
-        console.log("API called successfully.");
-        console.log(response.data);
       })
       .catch((error) => {
-        console.error(error);
       });
   };
 

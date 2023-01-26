@@ -9,13 +9,23 @@
         flex-direction: column
         align-items: center
         background: #212955
+        &--moreCta
+            display: flex
+            align-items: center
+        &--more
+            margin: 2rem
+            margin-bottom: 3rem
+            width: 70%
+            display: flex
+            justify-content: space-between
+
         &--cards
             padding: 2rem 0
             border-bottom: solid 1px rgba(255, 255, 255, 0.3411764706)
             margin-bottom: 2rem
             display: flex
             margin: 2rem auto
-            justify-content: space-between
+            justify-content: center
             flex-wrap: wrap
             width: 80%
             min-width: 69rem
@@ -52,46 +62,42 @@
                     align-items: center
 
 @media screen and (min-width: $medium)
-    .Container_WorkAreas
-        &--cards div:nth-child(3n+1)
-            border-right: solid 2px white
-            border-radius: 1rem 0 0 1rem
-
-        &--cards div:nth-child(4)
-            border-radius: 0 0 0 1rem
-
-        &--cards div:nth-child(1)
-            border-radius: 1rem 0 0 0
-            border-bottom: solid 2px white
-
-        &--cards div:nth-child(2)
-            border-bottom: solid 2px white
-
-        &--cards div:nth-child(6)
-            border-left: solid 2px white
-            border-radius: 0 0 1rem 0
-
-        &--cards div:nth-child(3)
-            border-left: solid 2px white
-            border-bottom: solid 2px white
-            border-radius: 0 1rem 0 0
-        &--more
-            margin: 2rem
-            margin-bottom: 3rem
-
     .Container
         &_WorkAreas
-            &--cards
             &--card
                 &:hover
                     background: #77777785
-                &:hover .Container_WorkAreas--card--hrefTxt
-                    cursor: pointer
-                    color: white
+                    &:hover .Container_WorkAreas--card--hrefTxt
+                        cursor: pointer
+                        color: white
+            &--cards div:nth-child(3n+1)
+                border-right: solid 2px white
+                border-radius: 1rem 0 0 1rem
+
+            &--cards div:nth-child(4)
+                border-radius: 0 0 0 1rem
+
+            &--cards div:nth-child(1)
+                border-radius: 1rem 0 0 0
+                border-bottom: solid 2px white
+
+            &--cards div:nth-child(2)
+                border-bottom: solid 2px white
+
+            &--cards div:nth-child(6)
+                border-left: solid 2px white
+                border-radius: 0 0 1rem 0
+
+            &--cards div:nth-child(3)
+                border-left: solid 2px white
+                border-bottom: solid 2px white
+                border-radius: 0 1rem 0 0
+            &--more
+                margin: 2rem
+                margin-bottom: 3rem
 
 @media screen and (max-width: $small)
     .Container
-
         &_WorkAreas
             width: 100%
             padding: 0
@@ -112,3 +118,11 @@
             &--more
                 margin: 2rem
                 margin-bottom: 3rem
+                width: 80%
+                display: flex
+                justify-content: space-between
+                flex-direction: column
+            &--moreCta
+                display: flex
+                align-items: center
+                justify-content: space-between
