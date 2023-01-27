@@ -41,12 +41,14 @@ export const MenuMobile = () => {
                         <span className="Details_SubMenu--flecha"></span>
                     </summary>
                     <ol className="Details_SubMenu--list">
-                        <li className="text Details_SubMenu--item">Área 1</li>
-                        <li className="text Details_SubMenu--item">Área 2</li>
-                        <li className="text Details_SubMenu--item">Área 3</li>
-                        <li className="text Details_SubMenu--item">Área 4</li>
-                        <li className="text Details_SubMenu--item">Área 5</li>
-                        <li className="text Details_SubMenu--item">Área 6</li>
+                        <li className="text Details_SubMenu--item">Derecho Penal</li>
+                        <li className="text Details_SubMenu--item">Derecho Civil</li>
+                        <li className="text Details_SubMenu--item">Derecho Administrativo</li>
+                        <li className="text Details_SubMenu--item">Derecho Laboral</li>
+                        <li className="text Details_SubMenu--item">compliance y prevención de lavado de activos</li>
+                        <li className="text Details_SubMenu--item">Fuerza Pública</li>
+                        <li className="text Details_SubMenu--item">Inmobiliario</li>
+                        <li className="text Details_SubMenu--item">Contratación estatal</li>
                     </ol>
                 </details>
             </section>

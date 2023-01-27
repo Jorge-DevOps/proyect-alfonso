@@ -1,11 +1,10 @@
 import banner3 from "../../assets/imgs/home/home-section-3.png"
 import bgBlanco from "../../assets/imgs/home/bacground/bg-formas.svg"
-import { About, Title } from "../../common"
+import { About, Title, Link } from "../../common"
 import { Contact } from "./views/contact"
 import { Partners } from "./views/partners"
 import { WorkAreas } from "./views/workAreas"
 import { Team } from "./views/team"
-import { Link } from "../../common/components/menu/item"
 import { AboutSection } from "./views/about"
 import "./style.sass"
 
@@ -34,7 +33,7 @@ export const Home = () => {
             }}>
 
                 <div className="Container_Why--two"
-                    data-aos="fade-right"
+                    data-aos={`${window.innerWidth > 768 ? "fade-right" : ""}`}
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
                 >
@@ -60,7 +59,7 @@ export const Home = () => {
                     backgroundImage: `url(${banner3})`
 
                 }}
-                    data-aos="fade-left"
+                    data-aos={`${window.innerWidth > 768 ? "fade-down" : ""}`}
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
                 >

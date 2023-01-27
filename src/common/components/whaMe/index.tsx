@@ -1,4 +1,4 @@
-import logo from "../../../assets/imgs/whatsapp.svg"
+import logo from "../../../assets/imgs/whatsappHover.svg"
 import "./style.sass"
 export const WhaMe = () => {
     return (

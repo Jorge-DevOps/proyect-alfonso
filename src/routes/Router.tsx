@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import { App } from "../app";
-import {Home,WorkAreas,About,Team,Contact} from "../views"
+import {Home,WorkAreas,About,Team,Contact,Compliance,DerechoAdministrativo,DerechoCivil,DerechoLaboral,DerechoPenal,FuerzaPublica} from "../views"
 
 export const AppRouter = () => {
   return (
@@ -34,9 +34,13 @@ export const AppRouter = () => {
                 <Route path="/areas-trabajo" element={<WorkAreas/>} />
                 <Route path="/contact" element={<Contact/>} />
                 <Route path="/quienes-somos" element={<About/>} />
-                <Route path="/nuestro-equipo" element={<Team/>} />
-
-
+                <Route path="/nuestro-equipo" element={<Team />} />
+                <Route path="/derecho-penal" element={<DerechoPenal/>} />
+                <Route path="/derecho-civil" element={<DerechoCivil/>} />
+                <Route path="/derecho-administrativo" element={<DerechoAdministrativo/>} />
+                <Route path="/derecho-laboral" element={<DerechoLaboral/>} />
+                <Route path="/compliance" element={<Compliance/>} />
+                <Route path="/fuerza-publica" element={<FuerzaPublica/>} />
               </Route>
             </Routes>
           }

@@ -6,13 +6,14 @@ import { Link } from "../item"
 import "./style.sass"
 
 export const MenuDesk = () => {
+    const aboutText = document.querySelector('.Container_About--text');
 
 
     return (
         <>
             <section className="Header_Logo">
                 <div className="Header_Logo--img">
-                    <img src={logo} alt="logo" className="Header_Logo--logo"/>
+                    <img src={logo} alt="logo" className="Header_Logo--logo" />
                 </div>
                 <div className="Header_Logo--txt">
                     <p className="Header_Logo--name">Javier Alfonso</p>
@@ -36,7 +37,7 @@ export const MenuDesk = () => {
                                         <li className="Header_List--SubMenu">
                                             <img src={penal} alt="" className="Header_List--SubMenu--icon" />
                                             <div className="Header_List--SubMenu--text">
-                                                <Link text="Derecho penal" link="derecho-civil" modifier="SubMenu" />
+                                                <Link text="Derecho Penal" link="/derecho-penal" modifier="SubMenu" />
                                                 <p className="Header_List--SubMenu--description text">Lorem Ipsum es simplemente el texto .</p>
 
                                             </div>
@@ -44,7 +45,7 @@ export const MenuDesk = () => {
                                         <li className="Header_List--SubMenu">
                                             <img src={penal} alt="" className="Header_List--SubMenu--icon" />
                                             <div className="Header_List--SubMenu--text">
-                                                <Link text="Derecho Civil" link="derecho-laboral" modifier="SubMenu" />
+                                                <Link text="Derecho Civil" link="/derecho-civil" modifier="SubMenu" />
                                                 <p className="Header_List--SubMenu--description text">Lorem Ipsum es simplemente el texto .</p>
 
                                             </div>
@@ -52,7 +53,7 @@ export const MenuDesk = () => {
                                         <li className="Header_List--SubMenu">
                                             <img src={penal} alt="" className="Header_List--SubMenu--icon" />
                                             <div className="Header_List--SubMenu--text">
-                                                <Link text="Derecho Administrativo" link="derecho-penal" modifier="SubMenu" />
+                                                <Link text="Derecho Administrativo" link="/derecho-administrativo" modifier="SubMenu" />
                                                 <p className="Header_List--SubMenu--description text">Lorem Ipsum es simplemente el texto .</p>
 
                                             </div>
@@ -65,7 +66,7 @@ export const MenuDesk = () => {
                                         <li className="Header_List--SubMenu">
                                             <img src={penal} alt="" className="Header_List--SubMenu--icon" />
                                             <div className="Header_List--SubMenu--text">
-                                                <Link text="Derecho Laboral" link="derecho-penal" modifier="SubMenu" />
+                                                <Link text="Derecho Laboral" link="/derecho-laboral" modifier="SubMenu" />
                                                 <p className="Header_List--SubMenu--description text">Lorem Ipsum es simplemente el texto .</p>
 
                                             </div>
@@ -73,12 +74,19 @@ export const MenuDesk = () => {
                                         <li className="Header_List--SubMenu">
                                             <img src={penal} alt="" className="Header_List--SubMenu--icon" />
                                             <div className="Header_List--SubMenu--text">
-                                                <Link text="Compliance y prevención de lavado de activo" link="derecho-administrativo" modifier="SubMenu" />
+                                                <Link text="Compliance y prevención de compliance" link="/compliance" modifier="SubMenu" />
                                                 <p className="Header_List--SubMenu--description text">Lorem Ipsum es simplemente el texto .</p>
 
                                             </div>
                                         </li>
+                                        <li className="Header_List--SubMenu">
+                                            <img src={penal} alt="" className="Header_List--SubMenu--icon" />
+                                            <div className="Header_List--SubMenu--text">
+                                                <Link text="Fuerza Pública" link="/fuerza-publica" modifier="SubMenu" />
+                                                <p className="Header_List--SubMenu--description text">Lorem Ipsum es simplemente el texto .</p>
 
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
