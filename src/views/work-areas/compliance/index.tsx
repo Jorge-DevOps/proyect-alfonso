@@ -4,7 +4,7 @@ import banner2 from "../../../assets/imgs/home/home-section-2.png"
 
 export const Compliance = () => {
     return (<>
-        <PosHeader title="Compliance y prevención de compliance" subTitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." />
+        <PosHeader title="Compliance y prevención de lavado del activos" subTitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." />
 
         <section className="Container Container_About" style={{
             backgroundImage: `url(${bgBlanco})`

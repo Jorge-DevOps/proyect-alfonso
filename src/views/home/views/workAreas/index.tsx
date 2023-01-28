@@ -2,8 +2,9 @@ import { Title, About, Link } from "../../../../common"
 import { CardWorkArea } from "../../components"
 import balance from "../../../../assets/imgs/home/balance.svg"
 import parallax from "../../../../assets/imgs/home/bg-parallax.png"
-import OwlCarousel from 'react-owl-carousel';
+import OwlCarousel from 'react-owl-carousel'
 import "./style.sass"
+import ReactOwlCarousel from "react-owl-carousel"
 
 export const WorkAreas = () => {
     return (

@@ -16,7 +16,7 @@ export const Team = () => {
             <About text="Conoce nuestro equipo" center modifier="team" />
             <Title text="Socios abogados" modifier="team" />
             <div className="Container_Team--slider">
-                <OwlCarousel items={4}
+                {<OwlCarousel items={4}
                     className="owl-theme"
                     loop
                     nav
@@ -44,7 +44,7 @@ export const Team = () => {
                     <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FJeison.jpg?alt=media&token=05887f74-c3f6-4bc2-b4a4-2523d3f6be37"} name="Jeisson Orlando Florez Galindo" specialist=" Abogado penalista, master en derecho administrativo" />
                     <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FCesar.jpg?alt=media&token=59a12191-f8c1-4b91-8317-d1ec441d6031"} name="Cesar" specialist=" Abogado penalista, master en derecho administrativo" />
                 </OwlCarousel>
-              
+                }
 
                 <section className="Container_Team--footer">
                     <div className='Container_Team--footer-contentText'>
