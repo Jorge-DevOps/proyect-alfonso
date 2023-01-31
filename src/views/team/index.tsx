@@ -1,6 +1,62 @@
 
+import { About, Title, Link, PosHeader } from "../../common"
+import bgBlanco from "../../assets/imgs/home/background/bg-formas.svg"
+import banner2 from "../../assets/imgs/home/home-section-2.png"
+import bgParallax from "../../assets/imgs/services/bg-parallax.png"
+import "./style.sass"
+
 export const Team = () => {
     return (<>
-    Team
+        <PosHeader title="Conoce nuestro equipo" modifier="Team" subTitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." image={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FteamAll.jpg?alt=media&token=485d9ed0-164e-40fb-8b75-01a0c130559e"} />
+
+        <section className="Container Container_TeamView" style={{
+            backgroundImage: `url(${bgBlanco})`
+        }}>
+
+            <div
+                data-aos={`${window.innerWidth > 768 ? "fade-left" : "fade-down"}`}
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                className="Container_TeamView--two"
+            >
+                <div
+                >
+                    <About text={"Quiénes somos"} />
+                    <div>
+                        <Title text="Conoce el equipo de" />
+                        <Title text="Javier Alfonso Abogados" />
+                    </div>
+                    <div className="Container_TeamView--content">
+                        <p className="Container_TeamView--text">
+                            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+                            No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                        </p>
+                        <   >
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </>
+
+                        <div>
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                        </div>
+                        <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="Container_TeamView--one" style={{
+                backgroundImage: `url(${banner2})`
+            }}
+                data-aos="fade-down"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+            >
+            </div>
+
+        </section>
     </>)
 }

@@ -1,5 +1,5 @@
 import banner2 from "../../../../assets/imgs/home/home-section-2.png"
-import bgBlanco from "../../../../assets/imgs/home/bacground/bg-formas.svg"
+import bgBlanco from "../../../../assets/imgs/home/background/bg-formas.svg"
 import { Title, About, Link } from "../../../../common"
 import "./style.sass"
 
@@ -10,22 +10,20 @@ export const AboutSection = () => {
             backgroundImage: `url(${bgBlanco})`
         }}>
 
-            <div className="Container_About--one" style={{
-                backgroundImage: `url(${banner2})`
-            }}
+            <div className="Container_About--one"
                 data-aos="fade-down"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
             >
             </div>
-            
+
             <div
                 data-aos={`${window.innerWidth > 768 ? "fade-left" : "fade-down"}`}
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
                 className="Container_About--two"
             >
-                <div 
+                <div
                 >
                     <About text={"Quiénes somos"} />
                     <div>
@@ -48,7 +46,7 @@ export const AboutSection = () => {
                             <a></a>
                             <a></a>
                         </div>
-                        <Link text="Quiero más información" link="/areas-trabajo" modifier="buttonWithouColorBlack " />
+                        <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
 
                     </div>
                 </div>

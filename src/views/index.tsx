@@ -9,7 +9,7 @@ export { DerechoPenal} from "./work-areas/derecho-penal"
 export { Compliance} from "./work-areas/compliance"
 export { FuerzaPublica } from "./work-areas/fuerza-publica"
 export { Team } from "./team"
-export { About } from "./about"
+export { About_us } from "./about"
 
 
 

@@ -26,11 +26,36 @@
             flex-direction: column
             align-items: center
             margin: 1rem auto
+            z-index: 2
         &--href
             width: 100%
             display: flex
             justify-content: center
             margin-bottom: 4rem
+            z-index: 2
+
+        &--image
+            width: 100%
+            position: absolute
+
+        &--transparent
+            width: 100%
+            height: 100%
+            position: absolute
+            background: #ffffff14
+        &--brand
+            z-index: 0
+            position: absolute
+            top: 6rem
+
+        &--brandtitle
+            font-family: 'Frank Ruhl Libre'
+            font-style: normal
+            font-weight: 700
+            font-size: 5rem
+            line-height: 110%
+            text-align: center
+            color: rgb(255 255 255 / 92%)
 
     &_Why
         padding: 0 3rem

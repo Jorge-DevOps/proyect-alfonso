@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../../../assets/imgs/footer/LogoName.png";
+import logo from "../../../../assets/imgs/footer/logo.svg";
 import hamburguer from "../../../../assets/imgs/menu/hamburguer.svg";
 import x from "../../../../assets/imgs/menu/x.svg";
 import { Link } from "../item";
@@ -22,7 +22,7 @@ export const MenuMobile = () => {
                 )}
 
             </div>
-            
+
             <section className={`Content_MenuMobile--subMenu ${open && "slide-right"}`} style={{ left: open ? "-100vh" : "0" }}>
                 <div className="text Content_MenuMobile--item">
                     <Link text="Home" link="home" modifier="menu" />
@@ -37,7 +37,7 @@ export const MenuMobile = () => {
                 </div>
                 <details className="Details_SubMenu" >
                     <summary className="Details_SubMenu--title">
-                        <Link text="Áreas de trabajo" link="/areas-trabajo" modifier="menu" />
+                        <Link text="Áreas de Práctica" link="/areas-de-practica" modifier="menu" />
                         <span className="Details_SubMenu--flecha"></span>
                     </summary>
                     <ol className="Details_SubMenu--list">

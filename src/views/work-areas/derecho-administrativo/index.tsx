@@ -1,11 +1,13 @@
 import { About, Title, Link, PosHeader } from "../../../common"
-import bgBlanco from "../../../assets/imgs/home/bacground/bg-formas.svg"
+import bgBlanco from "../../../assets/imgs/home/background/bg-formas.svg"
 import banner2 from "../../../assets/imgs/home/home-section-2.png"
+import bgParallax from "../../../assets/imgs/services/bg-parallax.png"
+
 
 export const DerechoAdministrativo = () => {
     return (
         <>
-            <PosHeader title="Derecho Administrativo" subTitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." />
+            <PosHeader title="Derecho Administrativo" subTitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." image={bgParallax} />
 
             <section className="Container Container_About" style={{
                 backgroundImage: `url(${bgBlanco})`
@@ -49,7 +51,7 @@ export const DerechoAdministrativo = () => {
                                 <a></a>
                                 <a></a>
                             </div>
-                            <Link text="Quiero más información" link="/areas-trabajo" modifier="buttonWithouColorBlack " />
+                            <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
 
                         </div>
                     </div>

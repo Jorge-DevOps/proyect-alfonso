@@ -1,10 +1,11 @@
 
 import { WhaMe } from "../whaMe";
-import logo from "../../../assets/imgs/footer/LogoName.png";
+import logoSvg from "../../../assets/imgs/footer/logo.svg";
 
 import parallax from "../../../assets/imgs/footer/pavel-danilyuk.jpg";
 
 import "./style.sass"
+import { NavLink } from "react-router-dom";
 
 export const Footer = () => {
     return (
@@ -13,7 +14,9 @@ export const Footer = () => {
                 background: `linear-gradient(to bottom, #13181eb8, #13181e), url(${parallax}) no-repeat center center fixed`
             }}>
                 <section className="Footer_Section--logo">
-                    <img src={logo} alt="" className="Footer_Section--img" />
+                    <NavLink to={"/home"}>
+                        <img src={logoSvg} alt="" className="Footer_Section--img" />
+                    </NavLink>
                 </section>
                 <section className="Footer_Section--about">
                     <section className="Footer_Section--enlaces">

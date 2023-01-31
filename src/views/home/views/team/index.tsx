@@ -51,7 +51,7 @@ export const Team = () => {
                         <p className='Container_Team--footer--txt'>Te invitamos a que conozcas mas en profundidad todo sobre los servicios que ofrecemos</p>
                     </div>
                     <div>
-                        <Link text="Quiero más información" link="/areas-trabajo" modifier="buttonWithouColorBlack " />
+                        <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
 
                     </div>
                 </section>

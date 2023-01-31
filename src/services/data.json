@@ -1,0 +1,207 @@
+{
+    "home": {
+        "banner": {
+            "img": "img/banner.jpg",
+            "title": "Manejo de procesos, litigios y arbitrajes",
+            "subtitle": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+            "button-left": {
+                "text": "Áreas de práctica",
+                "link": "areas-de-practica"
+            },
+            "button-rigth": {
+                "text": "Contáctenos",
+                "link": "contactenos"
+            }
+        },
+        "about": {
+            "subtitle": "Quiénes somos",
+            "title": "Conoce sobre Javier Alfonso Abogados",
+            "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.",
+            "target": {
+                "1": {
+                    "text": "Lorem Ipsum es",
+                    "image": "img/about.jpg"
+                },
+                "2": {
+                    "text": "simplemente el texto",
+                    "image": "img/about.jpg"
+                },
+                "3": {
+                    "text": "de relleno de las",
+                    "image": "img/about.jpg"
+                }
+            },
+            "button": {
+                "text": "Quiero más información",
+                "link": "quienes-somos",
+                "icon": "arrow.svg"
+            },
+            "redes": {
+                "facebook": {
+                    "link": "https://www.facebook.com/JavierAlfonsoAbogados/",
+                    "icon": "fab fa-facebook-f"
+                },
+                "twitter": {
+                    "link": "https://twitter.com/JavierAlfonsoAb",
+                    "icon": "fab fa-twitter"
+                },
+                "instagram": {
+                    "link": "https://www.instagram.com/javieralfonsoabogados/",
+                    "icon": "fab fa-instagram"
+                },
+                "linkedin": {
+                    "link": "https://www.linkedin.com/company/javier-alfonso-abogados/",
+                    "icon": "fab fa-linkedin-in"
+                }
+            },
+            "image": "img/about.jpg"
+        },
+        "workAreas": {
+            "title": "Conoce sobre Javier Alfonso Abogados",
+            "subtitle": "Quiénes somos",
+            "workAreas": {
+                "1": {
+                    "title": "Derecho Corporativo",
+                    "text": "Lorem Ipsum es",
+                    "icon": "img/about.jpg",
+                    "link": "areas-de-practica"
+                },
+                "2": {
+                    "title": "Derecho Corporativo",
+                    "text": "simplemente el texto",
+                    "icon": "img/about.jpg",
+                    "link": "areas-de-practica"
+                },
+                "3": {
+                    "title": "Derecho Corporativo",
+                    "text": "de relleno de las",
+                    "icon": "img/about.jpg",
+                    "link": "areas-de-practica"
+                },
+                "4": {
+                    "title": "Derecho Corporativo",
+                    "text": "de relleno de las",
+                    "icon": "img/about.jpg",
+                    "link": "areas-de-practica"
+                },
+                "5": {
+                    "title": "Derecho Corporativo",
+                    "text": "de relleno de las",
+                    "icon": "img/about.jpg",
+                    "link": "areas-de-practica"
+                },
+                "6": {
+                    "title": "Derecho Corporativo",
+                    "text": "de relleno de las",
+                    "icon": "img/about.jpg",
+                    "link": "areas-de-practica"
+                }
+            }
+        },
+        "why": {
+            "subtitle": "Por qué elegirnos",
+            "title": "Somos una firma con altos estándares de calidad",
+            "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.",
+            "target": {
+                "1": {
+                    "title": "Factor diferenciador número uno",
+                    "text": "Lorem Ipsum es",
+                    "icon": "img/about.jpg"
+                },
+                "2": {
+                    "title": "Factor diferenciador número uno",
+                    "text": "simplemente el texto",
+                    "icon": "img/about.jpg"
+                },
+                "3": {
+                    "title": "Factor diferenciador número uno",
+                    "text": "de relleno de las",
+                    "icon": "img/about.jpg"
+                }
+            },
+            "image": "img/about.jpg"
+        },
+        "team": {
+            "subtitle": "Por qué elegirnos",
+            "title": "Somos una firma con altos estándares de calidad",
+            "team": {
+                "1": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "2": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "3": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "4": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "5": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "6": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "7": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "8": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "9": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                },
+                "10": {
+                    "image": "",
+                    "name": "",
+                    "description": ""
+                }
+            },
+            "button": {
+                "text": "Conocer todos los socios",
+                "link": "equipo-trabajo",
+                "icon": "arrow.svg"
+            }
+        },
+        "partners": {
+            "0": {
+                "image": "img/about.jpg",
+                "link": "https://www.facebook.com/JavierAlfonsoAbogados/"
+            },
+            "1": {
+                "image": "img/about.jpg",
+                "link": "https://www.facebook.com/JavierAlfonsoAbogados/"
+            },
+            "2": {
+                "image": "img/about.jpg",
+                "link": "https://www.facebook.com/JavierAlfonsoAbogados/"
+            }
+        },
+        "contact": {}
+    },
+    "about_us": {},
+    "workAreas": {
+        "workAreas":{}
+    },
+    "team": {},
+    "contact": {}
+}

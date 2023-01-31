@@ -13,7 +13,7 @@ export const WorkAreas = () => {
         }}>
             <div className="Container_WorkAreas--text">
                 <About text={"Quiénes somos"} center modifier="workAreas" />
-                <Title text="Áreas de trabajo" modifier="workAreas" />
+                <Title text="Áreas de Práctica" modifier="workAreas" />
             </div>
             {window.innerWidth > 768 ? (
                 <div className="Container_WorkAreas--cards">
@@ -68,7 +68,7 @@ export const WorkAreas = () => {
                     </p>
                 </div>
                 <div className="Container_WorkAreas--moreCta">
-                    <Link text="Ver todos los servicios" link="/areas-trabajo" modifier="buttonWithouColor " />
+                    <Link text="Ver todos los servicios" link="/areas-de-practica" modifier="buttonWithouColor " />
 
                     <span className=" Container_WorkAreas--moreContact text">Contáctanos <br />
                         +57 320 123 1234
