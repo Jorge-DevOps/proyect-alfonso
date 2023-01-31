@@ -10,9 +10,7 @@ export const Home = () => {
 
     return (
         <>
-            <section className="Container Container_Banner" style={{
-                backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Home%2Fbanner-principal-desk.jpg?alt=media&token=94ae7f66-a3b1-4428-8822-53228d9d29ab)`
-            }}
+            <section className="Container Container_Banner" 
                 data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="100"

@@ -32,7 +32,7 @@ export const Why = () => {
             </div>
 
             <div className="Container_Why--one" style={{
-                backgroundImage: `url(${banner3})`
+                backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Home%2FSebasHome.png?alt=media&token=c388f0ae-f71b-43f4-afd0-c2283b7db582)`
 
             }}
                 data-aos={`${window.innerWidth > 768 ? "fade-down" : ""}`}
