@@ -14,9 +14,10 @@
             }
         },
         "about": {
+            "type": "about",
             "subtitle": "Quiénes somos",
             "title": "Conoce sobre Javier Alfonso Abogados",
-            "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.",
+            "text": "Javier Alfonso Abogados es una firma jurídica con más de 8 años de experiencia en el acompañamiento, asesoramiento y representación en diversas áreas del derecho. La firma se caracteriza por su rigurosidad y alto nivel de preparación en la ejecución de los distintos encargos .  Cuenta con un equipo de profesionales altamente cualificados para ofrecer soluciones jurídicas en los distintos servicios judiciales y extra judiciales ofertados.",
             "target": {
                 "1": {
                     "text": "Lorem Ipsum es",
@@ -54,7 +55,7 @@
                     "icon": "fab fa-linkedin-in"
                 }
             },
-            "image": "img/about.jpg"
+            "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Home%2FJavier.png?alt=media&token=55020e11-fc73-4e92-9555-ccd3a10cef8c"
         },
         "workAreas": {
             "title": "Conoce sobre Javier Alfonso Abogados",
@@ -101,7 +102,7 @@
         "why": {
             "subtitle": "Por qué elegirnos",
             "title": "Somos una firma con altos estándares de calidad",
-            "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.",
+            "text": "Javier Alfonso Abogados cuenta con un equipo de profesionales idóneos en las distintas áreas de práctica, los resultados son la mejor referencia.",
             "target": {
                 "1": {
                     "title": "Factor diferenciador número uno",
@@ -119,7 +120,7 @@
                     "icon": "img/about.jpg"
                 }
             },
-            "image": "img/about.jpg"
+            "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Home%2FSebasHome.png?alt=media&token=c388f0ae-f71b-43f4-afd0-c2283b7db582"
         },
         "team": {
             "subtitle": "Por qué elegirnos",
@@ -197,11 +198,5 @@
             }
         },
         "contact": {}
-    },
-    "about_us": {},
-    "workAreas": {
-        "workAreas": {}
-    },
-    "team": {},
-    "contact": {}
+    }
 }

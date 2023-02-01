@@ -33,7 +33,7 @@ export const Team = () => {
                         }
                     }}
                     margin={8} >
-                    <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FJavier.jpg?alt=media&token=d335f8a2-97b5-4449-aed2-663703093715"} name="Javier Alfonso Martinez " specialist=" Abogado penalista, master en derecho administrativo" />
+                    <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FJavier.jpg?alt=media&token=d335f8a2-97b5-4449-aed2-663703093715"} name="Javier Andrés Alfonso Martinez " specialist=" Abogado penalista, master en derecho administrativo" />
                     <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FPaula.jpg?alt=media&token=a5183995-6ad5-4cf9-a0df-9fd87c518412"} name="Paula Milena Rosero Velásquez" specialist=" Abogado penalista, master en derecho administrativo" />
                     <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FCamila.jpg?alt=media&token=5f736147-6a27-4581-98e9-bb5434b838df"} name="Camila Cortes Acosta " specialist=" Abogado penalista, master en derecho administrativo" />
                     <CardTeamMember img={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FLaura.jpg?alt=media&token=75e8c952-24eb-4b88-87f9-3bb07c9c5b95"} name="Laura Daniela Ramírez Franco" specialist=" Abogado penalista, master en derecho administrativo" />
