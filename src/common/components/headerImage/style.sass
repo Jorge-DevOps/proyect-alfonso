@@ -1,3 +1,5 @@
+@import "../../../assets/styles/variables.sass"
+
 .PosHeader
     height: 25rem
     background-size: cover !important
@@ -16,3 +18,16 @@
         background-position: 0 0rem !important
     &__Team
         background-position: 0 !important
+
+.smth
+  //some CSS
+@media screen and (max-width:$small)
+    .PosHeader
+        &__title
+            padding: 5rem 0 0 2rem
+        &__Team
+            background-position: -34rem 2rem !important
+
+    .Container_Title--title--PosHeader_title
+        margin: 0
+        font-size: 3rem

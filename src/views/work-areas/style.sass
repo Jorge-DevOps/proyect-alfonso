@@ -1,3 +1,5 @@
+@import "../../assets/styles/variables.sass"
+
 .Container__WorkAreas
     display: flex
     flex-direction: column
@@ -13,7 +15,6 @@
     width: 90%
     margin: 4rem 0
 
-
     &_Container
         display: flex
         background: #F6F6F6
@@ -26,16 +27,28 @@
         border: 1px solid rgba(19, 24, 30, 0.2)
         background: transparent
 
-
     &_img
         width: 2rem
     /* margin: 2rem; */
-
 
     &_Name
         font-weight: 600
         margin: 1rem 0
 
-
     &_Container:hover
         background: rgba(19, 24, 30, 0.05)
+        
+.smth
+  //some CSS
+@media screen and (max-width:$small)
+
+    .WorkArea
+        display: flex
+        flex-direction: column
+
+        &_Container
+            height: fit-content
+            max-height: 39rem
+
+    .Container__WorkAreas
+        padding: 0 2rem
