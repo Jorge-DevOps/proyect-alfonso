@@ -1,3 +1,5 @@
+@import "../../../assets/styles/variables.sass"
+
 .Container
     width: 100%
     height: auto
@@ -66,3 +68,15 @@
         color: #13181E
         flex: none
         font-weight: 900
+
+.smth
+  //some CSS
+@media screen and (max-width:$small)
+    .Factors_why
+        &--content
+        &--img
+        &--item
+            width: 70%
+    .Container
+        &_generalCard
+            padding: 2rem

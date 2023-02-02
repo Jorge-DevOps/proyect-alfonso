@@ -20,7 +20,7 @@ export const GeneralCard = ({ bgFondo, text, title, image, reverse, subtitle, ty
     return (
         <section className="Container Container_generalCard" style={{
             backgroundImage: `url(${bgFondo})`,
-            flexDirection: `${reverse ? "row-reverse" : "row"}`
+            flexDirection: `${window.innerWidth > 768 ? `${reverse ? "row-reverse" : "row"}` : "column"}`
 
         }}>
 
