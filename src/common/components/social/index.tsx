@@ -19,7 +19,7 @@ export const Social = () => {
                 </li>
                 <li className="Social_List--item">
                     <a href="https://www.youtube.com/@javieralfonsoabogados" target="_blank" className="Social_List--aRef">
-                        <img src={youtube} alt="" className="Social_List--icon" />
+                        <img src={youtube} alt="" className="Social_List--icon" style={{ height: "2.5rem" }} />
                     </a>
                 </li>
             </ul>

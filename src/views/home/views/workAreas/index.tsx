@@ -21,19 +21,19 @@ export const WorkAreas = () => {
                         <CardWorkArea link="/derecho-penal" title="Derecho Penal" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                     </div>
                     <div data-aos="flip-left" data-aos-duration="1500">
-                        <CardWorkArea link="/derecho-civil" title="Derecho Civil" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                        <CardWorkArea link="/derecho-civil" title="Derecho Administrativo, Disciplinario y Contratación Estatal" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                     </div>
                     <div data-aos="flip-left" data-aos-duration="1500">
-                        <CardWorkArea link="/derecho-administrativo" title="Derecho Administrativo" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                        <CardWorkArea link="/derecho-administrativo" title="Fuerza Pública, Derechos Humanos y D.I.H." description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                     </div>
                     <div data-aos="flip-left" data-aos-duration="1500">
-                        <CardWorkArea link="/derecho-laboral" title="Derecho Laboral" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                        <CardWorkArea link="/derecho-laboral" title="compliance y prevención de lavado de activos" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                     </div>
                     <div data-aos="flip-left" data-aos-duration="1500">
-                        <CardWorkArea link="/compliance" title="compliance y prevención de lavado de activos" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                        <CardWorkArea link="/compliance" title="Derecho Civil y Comercial" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                     </div>
                     <div data-aos="flip-left" data-aos-duration="1500">
-                        <CardWorkArea link="/fuerza-publica" title="Fuerza Pública" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                        <CardWorkArea link="/fuerza-publica" title="Derecho Laboral" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                     </div>
                 </div>) : (
                 <div className="Container_WorkAreas--cards">
@@ -70,9 +70,6 @@ export const WorkAreas = () => {
                 <div className="Container_WorkAreas--moreCta">
                     <Link text="Ver todos los servicios" link="/areas-de-practica" modifier="buttonWithouColor " />
 
-                    <span className=" Container_WorkAreas--moreContact text">Contáctanos <br />
-                        +57 320 123 1234
-                    </span>
                 </div>
             </section>
         </section>

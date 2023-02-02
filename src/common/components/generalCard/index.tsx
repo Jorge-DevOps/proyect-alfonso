@@ -1,6 +1,7 @@
 import { Title, About, Link } from "../../../common"
 import { Social } from "../social"
 import palacio from "../../../assets/imgs/icons/home/casa.svg"
+import toga from "../../../assets/imgs/icons/home/toga.svg"
 
 import "./style.sass"
 
@@ -50,14 +51,35 @@ export const GeneralCard = ({ bgFondo, text, title, image, reverse, subtitle, ty
                             {text}
                         </p>
 
-                        <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
                         {type === "about" &&
-                            <div>
-                                <img src={palacio} alt="" />
-                                <p>Iustitia est constants et perpetua voluntas ius suum cuique tribuere - La justicia es la constante y perpetua voluntad de dar a cada uno lo suyo. Domicio Ulpiano</p>
+                            <div className="Phrase_about">
+                                <img src={palacio} alt="" className="Phrase_about-icon" />
+                                <p className="text Phrase_about-text">Iustitia est constants et perpetua voluntas ius suum cuique tribuere - La justicia es la constante y perpetua voluntad de dar a cada uno lo suyo.  Domicio Ulpiano</p>
                             </div>}
-                        
+
+                        {type === "why" &&
+                            <ul className="Factors_why">
+                                <div className="Factors_why--content">
+                                    <img src={toga} alt="" className="Factors_why--img" />
+                                    <p className="Factors_why--item">Capacitación continua. </p>
+                                </div>
+                                <div className="Factors_why--content">
+                                    <img src={toga} alt="" className="Factors_why--img" />
+                                    <p className="Factors_why--item">Litigio Estratégico. </p>
+                                </div>
+                                <div className="Factors_why--content">
+                                    <img src={toga} alt="" className="Factors_why--img" />
+                                    <p className="Factors_why--item">Seriedad y Compromiso, demostrado en resultados. </p>
+                                </div>
+
+                            </ul>
+
+                        }
+
                         <Social />
+                        <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
+
+
                     </div>
                 </div>
             </div>

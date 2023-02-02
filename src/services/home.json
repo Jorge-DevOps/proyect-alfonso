@@ -100,6 +100,7 @@
             }
         },
         "why": {
+            "type":"why",
             "subtitle": "Por qué elegirnos",
             "title": "Somos una firma con altos estándares de calidad",
             "text": "Javier Alfonso Abogados cuenta con un equipo de profesionales idóneos en las distintas áreas de práctica, los resultados son la mejor referencia.",

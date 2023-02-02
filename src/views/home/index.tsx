@@ -34,7 +34,7 @@ export const Home = () => {
                             <div className="Container_Banner--transparent"></div>
                         </section>
                         <section className="Container Container_Banner" style={{
-                            backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Home%2Fbanner-deskv2.png?alt=media&token=6821a85a-d45d-4773-8392-36162a6709c0)"
+                            backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Home%2Fbanner-desk-2.png?alt=media&token=4c1aab17-d490-4318-98d0-f4b8755458ac)"
                         }}
                             data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back"
@@ -52,9 +52,10 @@ export const Home = () => {
                             </div>
                             <div className="Container_Banner--transparent"></div>
                         </section>
+
                         <GeneralCard title={data.home.about.title} image={data.home.about.image} bgFondo={bgBlanco} text={data.home.about.text} subtitle={data.home.about.subtitle} type={data.home.about.type} />
                         <WorkAreas />
-                        <GeneralCard title={data.home.why.title} image={data.home.why.image} bgFondo={bgBlanco} text={data.home.why.text} subtitle={data.home.why.subtitle} reverse />
+                        <GeneralCard title={data.home.why.title} image={data.home.why.image} bgFondo={bgBlanco} text={data.home.why.text} subtitle={data.home.why.subtitle} type={data.home.why.type}  reverse />
 
                         <section style={{
                             backgroundImage: `url(${bgBlanco})`
