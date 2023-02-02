@@ -117,11 +117,20 @@ export const FormContact = ({ onSubmit }: Props) => {
 									sx={{
 										mt: 3,
 										mb: 2,
-										backgroundImage: "-webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5)",
+										backgroundImage: "-webkit-linear-gradient(#282E3F, #282E3F 60%, #282E3F)",
 										padding: "8px 12px",
 										textTransform: "none",
+										background: "#282E3F",
+										border: "2px solid #2,2E3F",
+										borderRadius: "8px",
+										color: "#fff",
+										textDecoration: "none",
+										fontSize: " .9rem",
+										display: " flex",
+										alignItems: " center",
+										height: " auto",
+										justifyContent: " center"
 									}}
-									className="buttonWithouColor"
 								>
 									Enviar
 								</Button>
@@ -131,7 +140,7 @@ export const FormContact = ({ onSubmit }: Props) => {
 					</Form>
 				)}
 			</Formik>
-		</Box>
+		</Box >
 
 	)
 }

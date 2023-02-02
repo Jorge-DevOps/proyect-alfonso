@@ -15,7 +15,8 @@ export const PosHeader = ({ title, subTitle, image, modifier }: PosHeaderProps) 
             <div className="PosHeader__title">
                 <Title text={title} modifier="PosHeader_title" />
                 <Title text={subTitle} modifier="PosHeader_subtitle" />
-                <Link text="Agenda tu cita" link="/areas-de-practica" modifier="buttonWithouColorWhite " />
+                
+                {/* <Link text="Agenda tu cita" link="/areas-de-practica" modifier="buttonWithouColorWhite " /> */}
 
             </div>
         </div>

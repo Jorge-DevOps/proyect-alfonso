@@ -46,17 +46,17 @@ export const WorkAreas = () => {
                         margin={8} >
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                             <CardWorkArea link="/derecho-penal" title="Derecho Penal" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                            <CardWorkArea link="/derecho-civil" title="Derecho Civil" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                            <CardWorkArea link="/derecho-civil" title="Derecho Administrativo, Disciplinario y Contratación Estatal" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
 
                         </div>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <CardWorkArea link="/derecho-administrativo" title="Derecho Administrativo" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                            <CardWorkArea link="/derecho-laboral" title="Derecho Laboral" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                            <CardWorkArea link="/derecho-administrativo" title="Fuerza Pública, Derechos Humanos y D.I.H." description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                            <CardWorkArea link="/derecho-laboral" title="compliance y prevención de lavado de activos" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
 
                         </div>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <CardWorkArea link="/compliance" title="compliance" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
-                            <CardWorkArea link="/fuerza-publica" title="Fuerza Pública" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                            <CardWorkArea link="/compliance" title="Derecho Civil y Comercial" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
+                            <CardWorkArea link="/fuerza-publica" title="Derecho Laboral" description="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" img={balance} />
                         </div>
                     </OwlCarousel>
                 </div>

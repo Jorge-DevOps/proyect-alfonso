@@ -14,7 +14,7 @@ export const Team = () => {
             background: `linear-gradient(to bottom, #13181eb8, #13181e), url(${parallax}) no-repeat center center fixed`
         }}>
             <About text="Conoce nuestro equipo" center modifier="team" />
-            <Title text="Socios abogados" modifier="team" />
+            <Title text="Abogados" modifier="team" />
             <div className="Container_Team--slider">
                 {<OwlCarousel items={4}
                     className="owl-theme"

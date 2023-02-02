@@ -5,6 +5,7 @@ import x from "../../../../assets/imgs/menu/x.svg";
 import { Link } from "../item";
 
 import "./style.sass"
+import { NavLink } from "react-router-dom";
 
 export const MenuMobile = () => {
 
@@ -14,7 +15,9 @@ export const MenuMobile = () => {
 
         <nav className="Content_MenuMobile">
             <div className="Content_MenuMobile--header">
-                <img src={logo} alt="logo" className="Content_MenuMobile--logo" />
+                <NavLink to={"/home"}>
+                    <img src={logo} alt="logo" className="Content_MenuMobile--logo" />
+                </NavLink>
                 {open ? (
                     <img src={x} alt="logo" className="Content_MenuMobile--cta" onClick={(prev) => { setOpen(!open) }} />
                 ) : (
@@ -25,22 +28,22 @@ export const MenuMobile = () => {
 
             <section className={`Content_MenuMobile--subMenu ${open && "slide-right"}`} style={{ left: open ? "-100vh" : "0" }}>
                 <div className="text Content_MenuMobile--item">
-                    <Link text="Home" link="home" modifier="menu" />
+                    <Link text="Home" link="home" modifier="menu" onClick={() => { setOpen(false) }} />
                 </div>
                 {/* <div className="text Content_MenuMobile--item">
                     <Link text="Quienes Somos" link="quienes-somos" modifier="menu" />
                 </div> */}
                 <div className="text Content_MenuMobile--item">
 
-                    <Link text="Nuestro Equipo" link="nuestro-equipo" modifier="menu" />
+                    <Link text="Nuestro Equipo" link="nuestro-equipo" modifier="menu" onClick={() => { setOpen(false) }} />
 
                 </div>
                 <details className="Details_SubMenu" >
                     <summary className="Details_SubMenu--title">
-                        <Link text="Áreas de Práctica" link="/areas-de-practica" modifier="menu" />
+                        <Link text="Áreas de Práctica" link="/areas-de-practica" modifier="menu" onClick={() => { setOpen(false) }} />
                         <span className="Details_SubMenu--flecha"></span>
                     </summary>
-                    <ol className="Details_SubMenu--list">
+                    {/* <ol className="Details_SubMenu--list">
                         <li className="text Details_SubMenu--item">Derecho Penal</li>
                         <li className="text Details_SubMenu--item">Derecho Civil</li>
                         <li className="text Details_SubMenu--item">Derecho Administrativo</li>
@@ -49,7 +52,7 @@ export const MenuMobile = () => {
                         <li className="text Details_SubMenu--item">Fuerza Pública</li>
                         <li className="text Details_SubMenu--item">Inmobiliario</li>
                         <li className="text Details_SubMenu--item">Contratación estatal</li>
-                    </ol>
+                    </ol> */}
                 </details>
             </section>
         </nav>
