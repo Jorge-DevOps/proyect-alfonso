@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import { App } from "../app";
-import { Home, WorkAreas, About_us, Team, Contact, Compliance, DerechoAdministrativo, DerechoCivil, DerechoLaboral, DerechoPenal, FuerzaPublica } from "../views"
+import { Home, WorkAreas, About_us, Team, Contact, Compliance, DerechoAdministrativo, DerechoCivil, DerechoLaboral, DerechoPenal, FuerzaPublica, NotFound } from "../views"
 
 export const AppRouter = () => {
   return (
@@ -26,8 +26,8 @@ export const AppRouter = () => {
             <Routes>
               <Route path="*" element={<Navigate to="/404" replace />} />
               <Route path="/" element={<Navigate replace to="/home" />} />
-              {/* <Route path="/404" element={<NotFound />} />
-                <Route path="/maintenance" element={<NotFound />} /> */}
+              <Route path="/404" element={<NotFound />} />
+                {/* <Route path="/maintenance" element={<NotFound />} /> */}
               {/* Internal Components */}
               <Route element={<App />}>
                 <Route path="/home" element={<Home />} />

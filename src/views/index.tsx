@@ -10,6 +10,7 @@ export { Compliance} from "./work-areas/compliance"
 export { FuerzaPublica } from "./work-areas/fuerza-publica"
 export { Team } from "./team"
 export { About_us } from "./about"
+export { NotFound } from "./404"
 
 
 

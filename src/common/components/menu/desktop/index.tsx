@@ -97,11 +97,11 @@ export const MenuDesk = () => {
 
                         </div>
                     </li>
-                    <li className="Header_List--item">
+                    {/* <li className="Header_List--item">
                         <div className="Header_Item--link Header_List--workAreas">
                             <Link text="Quienes somos" link="quienes-somos" modifier="menu" />
                         </div>
-                    </li>
+                    </li> */}
                     <li className="Header_List--item">
                         <div className="Header_Item--link Header_List--workAreas">
                             <Link text="Nuestro equipo" link="nuestro-equipo" modifier="menu" />

@@ -27,9 +27,9 @@ export const MenuMobile = () => {
                 <div className="text Content_MenuMobile--item">
                     <Link text="Home" link="home" modifier="menu" />
                 </div>
-                <div className="text Content_MenuMobile--item">
+                {/* <div className="text Content_MenuMobile--item">
                     <Link text="Quienes Somos" link="quienes-somos" modifier="menu" />
-                </div>
+                </div> */}
                 <div className="text Content_MenuMobile--item">
 
                     <Link text="Nuestro Equipo" link="nuestro-equipo" modifier="menu" />

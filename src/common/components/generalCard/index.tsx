@@ -40,14 +40,14 @@ export const GeneralCard = ({ bgFondo, text, title, image, reverse, subtitle, ty
                 data-aos-easing="ease-in-sine"
                 className="Container_generalCard--two"
             >
-                <div
+                <div className="Container_generalCard--two--content"
                 >
                     <About text={subtitle} />
                     <div>
                         <Title text={title} />
                     </div>
                     <div className="Container_generalCard--content">
-                        <p className="Container_generalCard--text">
+                        <p className="Container_generalCard--text text">
                             {text}
                         </p>
 
@@ -61,24 +61,27 @@ export const GeneralCard = ({ bgFondo, text, title, image, reverse, subtitle, ty
                             <ul className="Factors_why">
                                 <div className="Factors_why--content">
                                     <img src={toga} alt="" className="Factors_why--img" />
-                                    <p className="Factors_why--item">Capacitación continua. </p>
+                                    <p className="Factors_why--item textTitle ">Capacitación continua. </p>
                                 </div>
                                 <div className="Factors_why--content">
                                     <img src={toga} alt="" className="Factors_why--img" />
-                                    <p className="Factors_why--item">Litigio Estratégico. </p>
+                                    <p className="Factors_why--item textTitle">Litigio Estratégico. </p>
                                 </div>
                                 <div className="Factors_why--content">
                                     <img src={toga} alt="" className="Factors_why--img" />
-                                    <p className="Factors_why--item">Seriedad y Compromiso, demostrado en resultados. </p>
+                                    <p className="Factors_why--item textTitle">Seriedad y Compromiso, demostrado en resultados. </p>
                                 </div>
 
                             </ul>
 
                         }
-
-                        <Social />
-                        <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
-
+                        {type === "about" && (
+                            <>
+                                <Social />
+                                <Link text="Quiero más información" link="/areas-de-practica" modifier="buttonWithouColorBlack " />
+                            </>
+                        )
+                        }
 
                     </div>
                 </div>

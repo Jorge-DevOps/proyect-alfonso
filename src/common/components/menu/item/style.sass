@@ -2,6 +2,8 @@
 
 .MenuLink
     text-decoration: none
+    &__Text
+        color: white
 .Link
     &_SubMenu
         text-decoration: none
@@ -34,7 +36,9 @@
         align-items: center
         height: auto
         transition: all 0.3s ease-in-out
-        width: 9rem
+        width: auto
+        margin: 1rem
+        max-width: 13rem
 
     &_buttonWithouColorBlack
         border: 2px solid #000000
@@ -48,7 +52,9 @@
         align-items: center
         height: auto
         transition: all 0.3s ease-in-out
-        width: 13rem
+        width: auto
+        max-width: 13rem
+        margin: 1rem
 
 // .Header_List--SubMenu
 //     text-decoration: none
@@ -69,7 +75,6 @@
     .Link_SubMenu
         &:hover
             color: #ffffff
-            font-weight: 100
     .Link
         &_SubMenu
             text-decoration: none

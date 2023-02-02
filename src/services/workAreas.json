@@ -1,0 +1,79 @@
+{
+    "workAreas": {
+        "banner": {
+            "image": "image/banner.jpg",
+            "title": "Manejo de procesos, litigios y arbitrajes",
+            "subtitle": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+            "button-left": {
+                "text": "Áreas de práctica",
+                "link": "areas-de-practica"
+            },
+            "button-rigth": {
+                "text": "Contáctenos",
+                "link": "contactenos"
+            }
+        },
+        "areas": [
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Derecho Penal",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Derecho Administrativo, Disciplinario y Contratación Estatal",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Fuerza Pública, Derechos Humanos y D.I.H.",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "compliance y prevención de lavado de activos",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Derecho Civil y Comercial",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Derecho Laboral",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Inmobiliario",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Area",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Area",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            },
+            {
+                "icon": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Icons%2FWorkAreas%2FFuerzaPublica.svg?alt=media&token=d5cfde2d-80f7-4a7e-9162-21026f22158c",
+                "title": "Area",
+                "resume": "Abogada brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías.",
+                "link":""
+            }
+        ]
+    }
+}

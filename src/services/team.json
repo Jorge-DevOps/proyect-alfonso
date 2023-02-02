@@ -1,0 +1,81 @@
+{
+    "team": {
+        "banner": {
+            "image": "image/banner.jpg",
+            "title": "Manejo de procesos, litigios y arbitrajes",
+            "subtitle": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+            "button-left": {
+                "text": "Áreas de práctica",
+                "link": "areas-de-practica"
+            },
+            "button-rigth": {
+                "text": "Contáctenos",
+                "link": "contactenos"
+            }
+        },
+        "team": {
+            "type": "team",
+            "subtitle": "Quiénes somos",
+            "title": "Conoce el equipo de Javier Alonso Abogados",
+            "text": "Este equipo de trabajo es un grupo altamente capacitado y experimentado de abogados en una prestigiosa firma de abogados. Con una combinación única de habilidades y conocimientos, trabajan juntos para brindar a sus clientes soluciones legales efectivas y asequibles. Cada miembro del equipo se especializa en diferentes áreas del derecho y trabaja incansablemente para asegurarse de que sus clientes reciban el mejor asesoramiento y representación posible. ¡Confía en nosotros para resolver tus desafíos legales de manera efectiva y eficiente!",
+            "button": {
+                "text": "Quiero más información",
+                "link": "quienes-somos",
+                "icon": "arrow.svg"
+            },
+            "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FHeaderTeam.png?alt=media&token=1e2c0362-8bf8-4211-8089-6bf758943c84"
+        },
+        "partners": [
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FJavier.jpg?alt=media&token=d335f8a2-97b5-4449-aed2-663703093715",
+                "name": "Javier Andrés Alfonso Martinez ",
+                "resume": "Abogado egresado de la Universidad la Gran Colombia - Especialista en Sistema Penal Acusatorio, Universidad de la Florida, USA - Especialista en Derecho Constitucional, Universidad de Pisa, Italia - Especialista en Derechos Humanos y Derecho Internacional Humanitario, Universidad Sergio Arboleda - Especialista en Derecho Penal, Universidad del Rosario -Estudiante de Especialización en Casación Penal, Universidad la Gran Colombia -Maestrando en Derecho Procesal Constitucional, Universidad Nacional Lomas de Zamora, Argentina."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FPaula.jpg?alt=media&token=a5183995-6ad5-4cf9-a0df-9fd87c518412",
+                "name": "Paula Milena Rosero Velásquez",
+                "resume": "Abogada de la universidad Militar Nueva Granada con enfasis en derecho penal, Especialista en Derecho Administrativo de la misma universidad, con estudios complementarios en compliance, derecho de la empresa y derecho digital. Con experiencia profesional de más de ocho años en el sector financiero en el área de garantías, litigante hace más de tres años en grandes firmas de abogados penalistas cómo lo son Jaime Granados Peña y Asociados y Amaya Mejia y asociados en las áreas del derecho penal, administrativo, corporativo, financiero, compliance entre otros."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FCamila.jpg?alt=media&token=5f736147-6a27-4581-98e9-bb5434b838df",
+                "name": "Camila Cortes Acosta ",
+                "resume": "Abogada egresada de la Universidad la Gran Colombia, especialista y Magister en Derecho Administrativo de la USTA, con estudios de posgrado en Derecho del Medio Ambiente, adscrita como Conciliadora extrajudicial en mecanismos alternativos de resolución de conflictos de la UGC, con experiencia en la prevención y defensa del daño antijurídico de 7 años en las áreas de Derecho Público, Urbanístico y Ambiental, brindando asesoría jurídica en el control y vigilancia ambiental al sector industrial, permisos de aprovechamiento, protección de ecosistemas estratégicos, seguimiento de políticas ambientales, protección y bienestar animal, gestión del riesgo, ordenamiento territorial, conflictos de usos de suelo y plusvalías."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FLaura.jpg?alt=media&token=75e8c952-24eb-4b88-87f9-3bb07c9c5b95",
+                "name": "Laura Daniela Ramírez Franco",
+                "resume": "Abogada egresada de la universidad Santo Tomás, especialista en derecho penal de la misma universidad. Perteneció al centro de atención a victimas de la Fiscalía General de la Nación del año 2017 al 2019. Fue Secretaria de fiscalías en unidad de vida y delitos sexuales desde el año 2019 al 2020. Judicante en Juzgado Penal del Circuito con Función de Conocimiento en el año 2020. Litigante en procesos penales actuando como representante de victimas y defensora de confianza."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FJulieta.jpg?alt=media&token=858e7cba-ac1d-4740-b3a7-fad64ee02e8d",
+                "name": "Julieta Agudelo Henao",
+                "resume": "Abogada especialista en Nuevas Tecnologías, innovación y gestión de ciudades inteligentes, Magister en Derecho Informático y Nuevas Tecnologías de la Universidad Externado de Colombia. Experiencia como abogada en el Ministerio de Ambiente para procesos permisivos y sancionatorios para la conservación de flora y fauna silvestre, abogada en la Alcaldía local de Tunjuelito en metrologia legal, en el Ministerio de Educación Nacional en la oficina jurídica, Abogada en el Ministerio de Tecnologías de la información y las comunicaciones para la Dirección de Industria de comunicaciones en temas relacionados con asignación de espectro y registro TIC, nivel asesor y apoyo transversal, en el IDIPRON en el área de registro de activos y transformación digital de la entidad."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FAndrea.jpg?alt=media&token=31af2f15-9c4a-4959-aac0-78ce7cf101e2",
+                "name": "Andrea Mosquera Portilla",
+                "resume": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FSebastian.jpg?alt=media&token=420197ea-e778-4f85-a218-fa50c343394e",
+                "name": "Sebastian Torres ",
+                "resume": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FNicolas.jpg?alt=media&token=1b1e83bc-40c8-40a0-9165-e13dc0cd88c8",
+                "name": "Andres Mora",
+                "resume": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FJeison.jpg?alt=media&token=05887f74-c3f6-4bc2-b4a4-2523d3f6be37",
+                "name": "Jeisson Orlando Florez Galindo",
+                "resume": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            },
+            {
+                "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FCesar.jpg?alt=media&token=59a12191-f8c1-4b91-8317-d1ec441d6031",
+                "name": "Cesar",
+                "resume": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            }
+        ]
+    }
+}
