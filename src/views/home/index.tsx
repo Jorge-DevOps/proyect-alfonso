@@ -1,11 +1,24 @@
+import { useEffect } from "react";
 import bgBlanco from "../../assets/imgs/home/background/bg-formas.svg"
 import { GeneralCard, Link } from "../../common"
 import { Contact, Partners, Team, WorkAreas } from "./views"
+import { usefirebase } from "../../services/firbase";
 import data from '../../services/home.json';
 import "./style.sass"
 
 
 export const Home = () => {
+    const { db } = usefirebase();
+    // db.collection("home").get().then((querySnapshot) => {
+
+    //     querySnapshot.forEach((doc) => {
+    //         console.log(doc.id, " => ", doc.data());
+    //     });
+    // });
+    useEffect(() => {
+      console.log(db.app.name);
+    }, [db])
+    
 
     return (
         <>
