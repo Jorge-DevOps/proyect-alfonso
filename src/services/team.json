@@ -1,17 +1,9 @@
 {
     "team": {
         "banner": {
-            "image": "image/banner.jpg",
-            "title": "Manejo de procesos, litigios y arbitrajes",
-            "subtitle": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
-            "button-left": {
-                "text": "Áreas de práctica",
-                "link": "areas-de-practica"
-            },
-            "button-rigth": {
-                "text": "Contáctenos",
-                "link": "contactenos"
-            }
+            "background": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FAllTeam.jpg?alt=media&token=8da34a1c-e5f6-409c-834b-0f94593d4c75",
+            "title": "Conoce nuestro equipo",
+            "subtitle": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto"
         },
         "team": {
             "type": "team",
@@ -48,8 +40,8 @@
             },
             {
                 "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FAndrea.jpg?alt=media&token=ee556527-535b-419b-b9dc-b770ac3d6e8d",
-                "name": "Andrea Mosquera Portilla",
-                "resume": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+                "name": "Andrea Mosquera Portilla  ",
+                "resume": "Profesional Inmobiliaria. Cuenta con 9 años de experiencia en la venta y arrendamiento de propiedades. Se ha desempeñado como asesora en el sector Público y Privado. Ha trabajado para grandes firmas nacionales y extranjeras, como Financar S.A, Constructora Magallanes, Inmobiliaria Bogota, Keller Williams, entre otras. Así mismo en La Aeronáutica Civil, desde el 2021, ha brindando apoyo en el proceso de adquisición predial de acuerdo con el desarrollo de los planes maestros y a su vez, control de arrendamientos para los Aeropuertos no concesionados del país."
             },
             {
                 "image": "https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FSebastian.jpg?alt=media&token=2ba9fcd2-cb18-4c88-a5d9-be1ae9add125",

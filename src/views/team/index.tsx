@@ -6,7 +6,7 @@ import "./style.sass"
 
 export const Team = () => {
     return (<>
-        <PosHeader title="Conoce nuestro equipo" modifier="Team" subTitle="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." image={"https://firebasestorage.googleapis.com/v0/b/javieralfonsoabogados-1360d.appspot.com/o/Team%2FteamAll.jpg?alt=media&token=485d9ed0-164e-40fb-8b75-01a0c130559e"} />
+        <PosHeader title={data.team.banner.title} modifier="Team" subTitle={data.team.banner.subtitle} image={data.team.banner.background} />
         <GeneralCard title={data.team.team.title} image={data.team.team.image} bgFondo={bgBlanco} text={data.team.team.text} subtitle={data.team.team.subtitle} type={data.team.team.type} reverse />
         <section className="Partner">
 

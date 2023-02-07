@@ -7,7 +7,7 @@
             object-fit: unset
             transition: .5s
             border-radius: 2rem
-            min-height: 21rem
+            min-height: 26rem
         &--details
             background: white
             padding: 1rem 0
@@ -38,6 +38,15 @@
         border-bottom: solid 1px lightgray
         border-radius: 0
         background: transparent
+    .Container_TeamMember
+        &--card
+            &--img
+                min-height: 21rem
+@media screen and (min-width: $medium ) and (max-width: $large)
+    .Container_TeamMember
+        &--card
+            &--img
+                min-height: 22rem
 
 @media screen and (min-width: $medium)
     .Container_TeamMember

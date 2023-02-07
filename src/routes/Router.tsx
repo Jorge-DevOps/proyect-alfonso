@@ -1,15 +1,18 @@
 import {
   HashRouter as Router,
+  BrowserRouter as Router1,
   Routes,
   Route,
   Navigate,
 } from "react-router-dom";
 import { App } from "../app";
 import { Home, WorkAreas, About_us, Team, Contact, Compliance, DerechoAdministrativo, DerechoCivil, DerechoLaboral, DerechoPenal, FuerzaPublica, NotFound } from "../views"
+import ScrollToTop from "../common/components/scrollToTop";
 
 export const AppRouter = () => {
   return (
-    <Router>
+    <Router1>
+      <ScrollToTop />
       <Routes>
         <Route
           path="login/*"
@@ -46,8 +49,8 @@ export const AppRouter = () => {
             </Routes>
           }
         />
-        <Route element={<h2></h2>} />
+        <Route element={<h2>aaaaaaa</h2>} />
       </Routes>
-    </Router>
+    </Router1>
   );
 };

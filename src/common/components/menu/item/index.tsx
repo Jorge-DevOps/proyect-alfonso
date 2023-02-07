@@ -11,7 +11,7 @@ type LinkType = {
 
 export const Link = ({ link, text, children, modifier, onClick }: LinkType) => {
     return (
-        <NavLink to={link} className={`MenuLink Link_Nav--${modifier}`} onClick={onClick} >
+        <NavLink to={link} className={`MenuLink Link_Nav--${modifier}`} onClick={onClick} style={{textDecoration:"none"}} >
             <h4 className={` text MenuLink__Text Link_${modifier} ` }>{text}</h4>
             {children}
         </NavLink>

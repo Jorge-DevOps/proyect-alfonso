@@ -17,5 +17,5 @@ export const usefirebase = () => {
   const app = initializeApp(firebaseConfig);
   const db = getDatabase(app);
 
-  return { db };
+  return { db, app, firebaseConfig };
 };

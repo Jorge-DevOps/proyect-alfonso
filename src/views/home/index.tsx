@@ -2,24 +2,13 @@ import { useEffect } from "react";
 import bgBlanco from "../../assets/imgs/home/background/bg-formas.svg"
 import { GeneralCard, Link } from "../../common"
 import { Contact, Partners, Team, WorkAreas } from "./views"
-import { usefirebase } from "../../services/firbase";
 import data from '../../services/home.json';
 import "./style.sass"
 
 
+
 export const Home = () => {
-    const { db } = usefirebase();
-    // db.collection("home").get().then((querySnapshot) => {
-
-    //     querySnapshot.forEach((doc) => {
-    //         console.log(doc.id, " => ", doc.data());
-    //     });
-    // });
-    useEffect(() => {
-      console.log(db.app.name);
-    }, [db])
-    
-
+ 
     return (
         <>
             {
@@ -44,10 +33,9 @@ export const Home = () => {
                             </div>
                             <div className="Container_Banner--transparent"></div>
                         </section>
-
                         <GeneralCard title={data.home.about.title} image={data.home.about.image} bgFondo={bgBlanco} text={data.home.about.text} subtitle={data.home.about.subtitle} type={data.home.about.type} />
                         <WorkAreas />
-                        <GeneralCard title={data.home.why.title} image={data.home.why.image} bgFondo={bgBlanco} text={data.home.why.text} subtitle={data.home.why.subtitle} type={data.home.why.type}  reverse />
+                        <GeneralCard title={data.home.why.title} image={data.home.why.image} bgFondo={bgBlanco} text={data.home.why.text} subtitle={data.home.why.subtitle} type={data.home.why.type} reverse />
 
                         <section style={{
                             backgroundImage: `url(${bgBlanco})`

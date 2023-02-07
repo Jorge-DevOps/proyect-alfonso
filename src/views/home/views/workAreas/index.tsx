@@ -68,7 +68,7 @@ export const WorkAreas = () => {
                     </p>
                 </div>
                 <div className="Container_WorkAreas--moreCta">
-                    <Link text="Ver todos los servicios" link="/areas-de-practica" modifier="buttonWithouColor " />
+                    <Link text="Ver todos los servicios" link="/nuestro-equipo" modifier="buttonWithouColor " />
 
                 </div>
             </section>

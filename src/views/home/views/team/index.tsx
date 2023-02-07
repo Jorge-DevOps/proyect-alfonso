@@ -2,10 +2,10 @@ import { CardTeamMember } from '../../components';
 import { Title, About } from '../../../../common';
 import parallax from "../../../../assets/imgs/home/bg-parallax.png"
 import { Link } from '../../../../common/components/menu/item';
-import "./style.sass"
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import "./style.sass"
 
 export const Team = () => {
 
@@ -34,7 +34,7 @@ export const Team = () => {
                         1100: {
                             items: 3
                         },
-                        1200: {
+                        1500: {
                             items: 4
                         }
 
