@@ -33,6 +33,7 @@ export const Home = () => {
                             </div>
                             <div className="Container_Banner--transparent"></div>
                         </section>
+
                         <GeneralCard title={data.home.about.title} image={data.home.about.image} bgFondo={bgBlanco} text={data.home.about.text} subtitle={data.home.about.subtitle} type={data.home.about.type} />
                         <WorkAreas />
                         <GeneralCard title={data.home.why.title} image={data.home.why.image} bgFondo={bgBlanco} text={data.home.why.text} subtitle={data.home.why.subtitle} type={data.home.why.type} reverse />
